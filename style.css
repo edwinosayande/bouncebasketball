@@ -1,0 +1,19 @@
+.game {
+    position: relative;
+    left: 0px;
+    animation: bounce 1s infinite;
+    -webkit-animation: bounce 1s infinite;
+    }
+    @keyframes bounce {
+        16%, 48%, 78%, 100% {
+            top: 190px;
+            animation-timing-function: ease-out;
+        }
+    }
+
+    .over {
+        position: relative;
+        left: 0px;
+        animation: bounce 0s infinite;
+        -webkit-animation: bounce 0s infinite;
+        }
